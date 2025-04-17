@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<style>
+    body{
+        text-align: center;
+        padding: 20px;
+        background-color: beige;
+    }
+    input,button{
+        font-size: 16px;
+        padding: 10px;
+        margin: 5px;
+        color:black;
+        background-color: burlywood;
+        border-radius: 10px;
+    }
+    li{
+        font-size:32px;
+        background-color:blue ;
+        color: white;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 10px;
+        text-emphasis: center;
+    }
+    ul{
+        list-style-type: none;
+    }
+</style>
+</head>
+<body>
+    <script src="array.js"></script>
+    <h1>🎉Array Game 🎉</h1>
+    <p>Add your favorite things to array!</p>
+    <input id="ItemInput" type="text" placeholder="Type something...">
+    <button onclick="addItem()">Add</button>
+    <button onclick="showItem()">Show All</button>
+    
+    <h1><b>🧺My Array Items: </b></h1>
+    <ul id="ShowInput">
+        
+    </ul>
+</body>
+
+</html>
